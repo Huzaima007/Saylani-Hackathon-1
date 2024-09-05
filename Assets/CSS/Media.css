@@ -1,0 +1,23 @@
+@media only screen and (max-width: 360px) {
+   .heroimage{
+    width: 250px;
+   }
+  }
+  
+
+  @media (max-width: 768px) {
+    .custom-card {
+      max-width: 100%; 
+      padding: 10px;
+    }
+  
+    .d-flex {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .card-img {
+      margin-top: 10px;
+      margin-left: 0; 
+    }
+  }
