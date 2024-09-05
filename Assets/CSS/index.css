@@ -2,6 +2,10 @@
     border: none;
 }
 
+.heroimage{
+    width: 500px;
+    height: 400px;
+}
 .consulation{
     border: none;
 background-color: black;
@@ -16,14 +20,28 @@ border-radius: 10px;
  border-radius: 10px;
 }
 
-.arrow{
-    height: 30px;
+.custom-card{
+    border-radius: 20px;
+    width: 360px;
+    overflow: hidden;
+    box-shadow: 0 6px 8px rgb(0, 0, 0);
 }
 
-.cards{
-    border: none;
+.back-color{
+    background-color: #B9FF66;
+    height: 50px;
+}
+
+.background{
+    background-color: #B9FF66;
+    width: 355px;
     
 }
-.card{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+.background-color{
+    background-color: white;
+    height: 50px;
 }
+  .arrow{
+height: 30px;
+  }
